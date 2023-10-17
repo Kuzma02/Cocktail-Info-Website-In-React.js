@@ -4,11 +4,11 @@ import styled from "styled-components";
 import Wrapper from "../assets/wrappers/Navbar"
 
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <Wrapper>
       <div className="nav-center">
-        <span className="logo">MixMaster</span>
+        <span className="logo">CocktailMaster</span>
         <div className="nav-links">
             <NavLink to="/" className="nav-link">Home</NavLink>
             <NavLink to="/about" className="nav-link">About</NavLink>
@@ -20,4 +20,3 @@ const Navbar = () => {
 };
 
 
-export default Navbar;
